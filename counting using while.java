@@ -1,4 +1,3 @@
-import java.util.*;
 public class counting {
     public static void main( String args[]) {
         int counter = 1;
