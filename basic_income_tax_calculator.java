@@ -1,6 +1,8 @@
 import java.util.*;
-public class basic_income_tax_calculator {
-    public static void main( String args[]) {
+public class basic_income_tax_calculator 
+{
+    public static void main( String args[]) 
+    {
         System.out.println("Income should be positive ");
         System.out.println("Amount in Lakhs");
         Scanner sc = new Scanner (System.in);
