@@ -18,7 +18,7 @@ public class prime_number
                     isPrime = false;
                 }
             }
-        if(isPrime= true){
+        if(isPrime==true){
                     System.out.println("number is prime");
                 }
         else{
