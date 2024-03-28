@@ -1,4 +1,4 @@
-public class floyd_triangle{
+public class floyd_triangle_pattern{
     public static void main(String args[])
     {
         int n=1;
