@@ -1,7 +1,7 @@
 import java.util.*;
 public class pelindrome_number_check
 {
-    public static void main{ String args[]}
+    public static void main( String args[])
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any nymber:");
@@ -9,21 +9,34 @@ public class pelindrome_number_check
 
         if(pelindrome(input))
         {
-            System.out.println("the number"+ input + "is pelindrome");
+            System.out.println("the number "+ input + " is pelindrome");
         }
         else
         {
-            system.out.println("the number "+ input + " is NOT pelindrome");
+            System.out.println("the number "+ input + " is NOT pelindrome");
         }
     }
-    public static void pelindrome( int n)
+    public static boolean pelindrome( int n)
     {
-        int input = temp
+        int temp = n ;
         int rev = 0 ;
-        while(n!=0)
+        while(temp!=0)
         {
-            rem = n%10;
-            
+            int rem = temp %10;
+            rev=(rev*10)+rem;
+            temp = temp/10;
+
+        }
+        System.out.println(rev);
+        System.out.println(n);
+        System.out.println(temp);
+        if(n==rev)
+        {
+            return true;
+        }
+        else 
+        {
+            return false ;
         }
 
     }
